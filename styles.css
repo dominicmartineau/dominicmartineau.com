@@ -18,14 +18,6 @@ footer, header, nav, section, audio, video {
 	display: block;
 }
 
-a {
-  	color: #D8DF03;
-  	text-decoration: none; 
-}
-a:hover {
-	text-decoration: underline;
-}
-
 ul {
   	list-style: none;
 }
@@ -33,72 +25,91 @@ ul {
 /* Default layout */
 
 body {
-  	padding: 20px 50px;
-  	font-family: 'Headland One', helvetica, arial, serif;
-	font-size: small;
+	height: 100%;
+  	font-family: 'Droid Sans', helvetica, arial, serif;
+	font-size: 20px;
 	font-weight: normal;
-	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
-	background: url('images/black_denim.png') left -25px repeat #222;
+	-webkit-text-size-adjust: 100%;
+	background-color: #222;
 	color: #FFF;
 }
 
-h1 {
-  	font-size: 500%;
-	font-weight: normal;
-}
-h1 span {
-  	color: #666;
-}
-h2 {
-	font-weight: normal;
+a {
+    border-bottom: 2px solid #FFF;
+    color: #FFF;
+    padding-bottom: 1px;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
 }
 
-article > ul {
-  	margin-top: 50px;
-	font-size: 140%;
-}
-article ul li {
-  	margin-bottom: 10px;
-	padding-left: 20px;
-}
-article > ul > li:first-child, article > ul > li:last-child {
-  	padding: 0;
-}
-article > ul > li > ul {
-	padding-left: 20px;
+#who, #presentation {
+	position: fixed;
+	width: 100%;
+	text-align: center;
 }
 
-/* iPhone */
+#who {
+	bottom: 50%;
+	padding-bottom: 15px;
+	animation: movebottom 1s;
+}
+@keyframes movebottom {
+    from { bottom: 100%; }
+    to { bottom: 50%; }
+} 
 
-@media only screen and (max-width: 480px) {
-
-  	body {
-	  	padding: 10px;
+	#who h1 {
+		font-size: 40px;
 	}
-	
-	h1 {
-	  	font-size: 200%;
-	}
-	
-	img {
-	  	width: 80px;
-		height: 80px;
-	}
-		
-	ul {
-	  	margin-top: 20px;
-	  	font-size: 100%;
-	}
-}
 
-@media only screen and (max-width: 320px) {
-
-	img {
-	  	float: none;
-		margin: 0 0 20px 0;
-		padding: 25px;
-		width: 250px;
-		height: 250px;
-		background-color: #000;
+	#who img {
+		padding: 3px;
+		border-radius: 50%;
+		border: 3px solid #333;
 	}
+
+#presentation {
+	top: 50%;
+	padding-top: 15px;
+	animation: movetop 1s;
 }
+@keyframes movetop {
+    from { top: 100%; }
+    to { top: 50%; }
+} 
+
+	#presentation p {
+		margin: 0 auto 30px auto;
+		max-width: 900px;
+		line-height: 30px;
+	}
+
+		a.ellipse:hover {
+			border-color: #F66930;
+		}
+		a.wibeset:hover {
+			border-color: #F1C40F;
+		}
+
+	#presentation li {
+		display: inline;
+		padding: 0 5px;
+	}
+
+		#presentation li a {
+			display: inline-block;
+			margin-right: 15px;
+		}
+		#presentation li:last-child a {
+			margin-right: 0;
+		}
+
+		a.twitter:hover {
+			border-color: #8EC1DA;
+		}
+		a.github:hover {
+			border-color: #BD2C00;
+		}
+		a.linkedin:hover {
+			border-color: #489DC9;
+		}
