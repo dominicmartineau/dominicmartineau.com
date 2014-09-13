@@ -51,8 +51,13 @@ a {
 #who {
 	bottom: 50%;
 	padding-bottom: 15px;
+	-webkit-animation: movebottom 1s;
 	animation: movebottom 1s;
 }
+@-webkit-keyframes movebottom {
+    from { bottom: 100%; }
+    to { bottom: 50%; }
+} 
 @keyframes movebottom {
     from { bottom: 100%; }
     to { bottom: 50%; }
@@ -71,8 +76,13 @@ a {
 #presentation {
 	top: 50%;
 	padding-top: 15px;
+	-webkit-animation: movetop 1s;
 	animation: movetop 1s;
 }
+@-webkit-keyframes movetop {
+    from { top: 100%; }
+    to { top: 50%; }
+} 
 @keyframes movetop {
     from { top: 100%; }
     to { top: 50%; }
