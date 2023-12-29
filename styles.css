@@ -1,12 +1,12 @@
 /*	Resets
 	------	*/
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
-p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
-img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em,
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figure, figcaption, hgroup, 
+article, aside, canvas, details, figure, figcaption, hgroup,
 menu, footer, header, nav, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -18,11 +18,13 @@ footer, header, nav, section, audio, video {
 	display: block;
 }
 
-a {
-  	color: #D8DF03;
-  	text-decoration: none; 
+a, .disabled-link {
+	color: #fff;
+	text-decoration: underline;
+	transition: all 0.3s ease 0s;
 }
 a:hover {
+	color: #5f27cd;
 	text-decoration: underline;
 }
 
@@ -30,74 +32,92 @@ ul {
   	list-style: none;
 }
 
+.strikethrough {
+	text-decoration: line-through;
+}
+
 /* Default layout */
 
+html, body {
+	height: 100%;
+}
+
 body {
-  	padding: 20px 50px;
-  	font-family: 'Headland One', helvetica, arial, serif;
-	font-size: small;
-	font-weight: normal;
-	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
-	background: url('images/black_denim.png') left -25px repeat #222;
-	color: #FFF;
-}
-
-h1 {
-  	font-size: 500%;
-	font-weight: normal;
-}
-h1 span {
-  	color: #666;
-}
-h2 {
-	font-weight: normal;
-}
-
-article > ul {
-  	margin-top: 50px;
-	font-size: 140%;
-}
-article ul li {
-  	margin-bottom: 10px;
-	padding-left: 20px;
-}
-article > ul > li:first-child, article > ul > li:last-child {
+	display: flex;
+	align-items: center;
   	padding: 0;
-}
-article > ul > li > ul {
-	padding-left: 20px;
-}
-
-/* iPhone */
-@media only screen and (max-width: 480px) {
-
-  	body {
-	  	padding: 10px;
-	}
-	
-	h1 {
-	  	font-size: 200%;
-	}
-	
-	img {
-	  	width: 80px;
-		height: 80px;
-	}
-		
-	ul {
-	  	margin-top: 20px;
-	  	font-size: 100%;
-	}
+  	font-family: "Headland One", helvetica, arial, serif;
+	font-size: 20px;
+	font-weight: normal;
+	background: url('images/black_denim.png') left -25px repeat #111;
+	color: #e1e1e1;
 }
 
-@media only screen and (max-width: 320px) {
+article {
+	padding: 200px;
+}
 
-	img {
-	  	float: none;
-		margin: 0 0 20px 0;
-		padding: 25px;
-		width: 250px;
-		height: 250px;
-		background-color: #000;
-	}
+section:not(:last-child) {
+	margin-bottom: 60px;
+}
+
+h1, h2 {
+	margin-bottom: 30px;
+	font-size: 36px;
+	color: #fff;
+}
+
+p {
+	margin-bottom: 20px;
+	line-height: 1.2;
+	max-width: 600px;
+}
+
+.links {
+	margin-bottom: 0;
+}
+.links li {
+	display: inline;
+	margin-right: 15px;
+}
+.links li a {
+	border-bottom: 3px solid #3e3e3e;
+	color: #777;
+	display: inline-block;
+	font-weight: 400;
+	font-size: 20px;
+	padding-bottom: 1px;
+	text-decoration: none;
+	transition: all 0.5s ease 0s;
+}
+.links li a:hover {
+	color: #fff;
+	border-color: #10ac84;
+}
+.links li a.twitter:hover {
+	border-color: #8ec1da;
+}
+.links li a.linkedin:hover {
+	border-color: #3b5998;
+}
+.links li a.github:hover {
+	border-color: #0969da;
+}
+.links li a.instagram:hover {
+	border-color: #0064e0;
+}
+.links li a.porcom:hover {
+	border-color: #ff3b30;
+}
+.links li a.optania:hover {
+	border-color: #f0a21f;
+}
+.links li a.ali:hover {
+	border-color: #5eb1e7;
+}
+.links li a.psylio:hover {
+	border-color: #7e57fc;
+}
+.links li a.jade:hover {
+	border-color: rgb(16, 172, 132);
 }
