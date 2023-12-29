@@ -54,7 +54,14 @@ body {
 }
 
 article {
-	padding: 200px;
+	padding: 30px;
+}
+
+@media screen and (min-width: 1000px) {
+
+	article {
+		padding: 200px;
+	}
 }
 
 section:not(:last-child) {
