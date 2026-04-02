@@ -176,3 +176,6 @@ p a:hover {
 .links li a.noa:hover {
 	border-color: #4f7cff;
 }
+.links li a.apostasieme:hover {
+	border-color: #f0ede8;
+}
