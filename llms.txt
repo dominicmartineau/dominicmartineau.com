@@ -1,0 +1,33 @@
+# Dominic Martineau
+
+> Full stack developer and CTO at Optania, building AI solutions for education and mental health.
+
+Dominic Martineau is a software developer based in Quebec, Canada. He is the CTO of Optania, a company
+that develops AI-powered solutions for education and mental health. He previously worked as a team lead
+at Canoë, where he built platforms such as RéseauContact, EspaceCanoë, and La Toile du Québec.
+
+He is also known online as "akanoxx".
+
+## Optania
+
+Optania builds caring AI solutions for education and mental health. Its products include:
+
+- **Psylio** (https://www.psylio.com) — Practice management software for mental health professionals
+- **Jade** (https://jade.psylio.com) — Directory to find mental health professionals
+- **EVIO** (https://www.optania.com/evio) — Digital education platform for students
+- **ALI** (https://www.optania.com/ali) — Conversational AI chatbot for learning
+
+## Side Projects
+
+- **Noa** (https://noaai.app) — AI task runner
+- **Bonjour Metal** (https://bonjourmetal.com) — Heavy metal music discovery platform
+- **Apostasie moi !** (https://apostasie.me) — Step-by-step guide to apostasy in French
+- **Porcom** (https://porcom.tumblr.com) — Personal movie journal
+
+## Links
+
+- Website: https://dominicmartineau.com
+- GitHub: https://github.com/dominicmartineau
+- LinkedIn: https://linkedin.com/in/dominicmart
+- Instagram: https://www.instagram.com/akanoxx/
+- Threads: https://www.threads.com/@akanoxx
