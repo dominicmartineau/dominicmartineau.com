@@ -15,11 +15,9 @@ Optania builds caring AI solutions for education and mental health. Its products
 - **Psylio** (https://www.psylio.com) — Practice management software for mental health professionals
 - **Jade** (https://jade.psylio.com) — Directory to find mental health professionals
 - **EVIO** (https://www.optania.com/evio) — Digital education platform for students
-- **ALI** (https://www.optania.com/ali) — Conversational AI chatbot for learning
 
 ## Side Projects
 
-- **Noa** (https://noaai.app) — AI task runner
 - **Bonjour Metal** (https://bonjourmetal.com) — Heavy metal music discovery platform
 - **Apostasie moi !** (https://apostasie.me) — Step-by-step guide to apostasy in French
 - **Porcom** (https://porcom.tumblr.com) — Personal movie journal
