@@ -193,6 +193,8 @@ p a.psylio,       .links li a.psylio       { color: #9d82ff; }
 p a.jade,         .links li a.jade         { color: #14c99a; }
 p a.evio,         .links li a.evio         { color: #29a3e0; }
 p a.ali,          .links li a.ali          { color: #5eb1e7; }
+p a.luere,        .links li a.luere        { color: #0f766e; }
+p a.luereiconstudio, .links li a.luereiconstudio { color: #c2410c; }
 p a.bonjourmetal, .links li a.bonjourmetal { color: rgb(248, 230, 209); }
 p a.apostasieme,  .links li a.apostasieme  { color: #c8a96e; }
 p a.spotify,      .links li a.spotify      { color: #1db954; }
