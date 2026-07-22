@@ -1,9 +1,10 @@
 # Dominic Martineau
 
-> Full stack developer and CTO at Optania, building AI solutions for education and mental health.
+> Full stack developer and Director of Technology and Digital Strategy at Optania, building AI solutions for education and mental health.
 
-Dominic Martineau is a software developer based in Quebec, Canada. He is the CTO of Optania, a company
-that develops AI-powered solutions for education and mental health. He previously worked as a team lead
+Dominic Martineau is a software developer based in Quebec, Canada. He is the Director of Technology and
+Digital Strategy at Optania, a company that develops AI-powered solutions for education and mental health.
+He previously worked as a team lead
 at Canoë, where he built platforms such as RéseauContact, EspaceCanoë, and La Toile du Québec.
 
 He is also known online as "akanoxx".
